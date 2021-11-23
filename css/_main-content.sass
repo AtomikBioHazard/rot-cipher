@@ -1,0 +1,37 @@
+@use 'variables'
+
+.cipher-form
+  margin-left: auto
+  margin-right: auto
+  width: 80%
+  > *
+    padding: .5rem
+    margin: 1rem auto
+    display: block
+    width: 100%
+  label
+    color: variables.$primary-font-color
+  textarea
+    resize: none
+  input,
+  textarea
+    font-size: 1rem
+    font-family: serif
+  input[type='submit']
+    width: 50%
+    font-weight: bold
+    cursor: pointer
+  *::placeholder
+    color: variables.$primary-font-color
+
+.cipher-loader
+  text-align: center
+
+.none
+  display: none
+
+.cipher-response
+  font-size: 1.5rem
+  font-weight: bold
+  text-align: center
+  color: variables.$primary-font-color

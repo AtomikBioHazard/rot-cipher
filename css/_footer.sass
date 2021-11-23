@@ -1,0 +1,35 @@
+@use 'variables'
+
+footer
+  position: absolute
+  bottom: 0
+  z-index: 990
+  text-align: center
+  background-color: variables.$secondary-color
+  color: variables.$secondary-font-color
+  height: 100px
+  width: 100%
+  .social-media
+    padding: 10px 0
+    p
+      color: variables.$secondary-font-color
+    .container
+      display: flex
+      justify-content: center
+      a
+        color: variables.$secondary-font-color
+        text-align: center
+        width: 100%
+        display: block
+        padding: 5px 0
+        border-radius: 5px
+        font-size: 2rem
+        margin: 0 10px
+      .facebook:hover
+        background-color: variables.$facebook
+      .twitter:hover
+        background-color: variables.$twitter
+      .github:hover
+        background-color: variables.$github
+      .instagram:hover
+        background-color: variables.$instagram

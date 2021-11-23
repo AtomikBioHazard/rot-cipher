@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  font: "Oswald", sans-serif;
+  background-color: #e0fbfc;
+  color: #98c1d9;
+  font-size: 16px;
+}
+
+header {
+  text-align: center;
+  background-color: #293241;
+  height: 100px;
+}
+header h1 {
+  margin: 0;
+  padding: 20px 0;
+}
+
+.cipher-form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.cipher-form > * {
+  padding: 0.5rem;
+  margin: 1rem auto;
+  display: block;
+  width: 100%;
+}
+.cipher-form label {
+  color: #3d5a80;
+}
+.cipher-form textarea {
+  resize: none;
+}
+.cipher-form input,
+.cipher-form textarea {
+  font-size: 1rem;
+  font-family: serif;
+}
+.cipher-form input[type=submit] {
+  width: 50%;
+  font-weight: bold;
+  cursor: pointer;
+}
+.cipher-form *::placeholder {
+  color: #3d5a80;
+}
+
+.cipher-loader {
+  text-align: center;
+}
+
+.none {
+  display: none;
+}
+
+.cipher-response {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #3d5a80;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  z-index: 990;
+  text-align: center;
+  background-color: #293241;
+  color: #98c1d9;
+  height: 100px;
+  width: 100%;
+}
+footer .social-media {
+  padding: 10px 0;
+}
+footer .social-media p {
+  color: #98c1d9;
+}
+footer .social-media .container {
+  display: flex;
+  justify-content: center;
+}
+footer .social-media .container a {
+  color: #98c1d9;
+  text-align: center;
+  width: 100%;
+  display: block;
+  padding: 5px 0;
+  border-radius: 5px;
+  font-size: 2rem;
+  margin: 0 10px;
+}
+footer .social-media .container .facebook:hover {
+  background-color: #3b5998;
+}
+footer .social-media .container .twitter:hover {
+  background-color: #1da1f2;
+}
+footer .social-media .container .github:hover {
+  background-color: #6e5494;
+}
+footer .social-media .container .instagram:hover {
+  background-color: #e1306c;
+}
+
+/*# sourceMappingURL=main.css.map */
